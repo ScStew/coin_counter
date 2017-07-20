@@ -12,23 +12,23 @@ pen = 0
 
 coins = {quarter:0, dime:0, nickel:0, penny:0}
 
- until change < 25
- 	change =- 25
+ while change >= 25 do
+ 	change -= 25
  	qua += 1
  end
   
- until change < 10
- 	change =- 10
+ while change >= 10 do
+ 	change -= 10
  	dim += 1 
  end
 
- until change < 5
- 	change =- 5
+ while change >= 5 do
+ 	change -= 5
  	nic += 1
  end
 
- until change < 1
- 	change =- 1
+ while change >= 1 do
+ 	change -= 1
  	pen += 1
  end
 
