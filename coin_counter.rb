@@ -1,5 +1,5 @@
 def coin_changer(change)
-coins = {quarter:0, dime:0, nickel:0, penny:1}
+coins = {quarter:0, dime:0, nickel:0, penny:0}
 
 
 qua = 0
@@ -39,16 +39,5 @@ coins = {quarter:0, dime:0, nickel:0, penny:0}
 
  coins
 
-
-
-
-
-
-	# if change == 1
-	# 	{quarter:00, dime:0, nickel:0, penny:1}
-	# else
-	# 	change == 5
-	# 	{quarter:0, dime:0, nickel:1, penny:0}
-	# end
 end	
 
